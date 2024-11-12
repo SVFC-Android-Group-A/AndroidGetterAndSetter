@@ -37,6 +37,7 @@ public class bookspage extends MainActivity {
         btnAddItem.setOnClickListener(v -> addFunction());
     }
 
+    //this is working
     private void addFunction(){
         bookObject.setTitle(etTitle.getText().toString());
         bookObject.setAuthor(etAuthor.getText().toString());

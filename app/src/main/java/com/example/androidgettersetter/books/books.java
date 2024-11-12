@@ -15,6 +15,7 @@ public class books {
 
     public books() {}
 
+    //getter and setter part
     public String getTitle() {
         return title;
     }
